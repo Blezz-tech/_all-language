@@ -38,6 +38,7 @@
                     c.enable = true;
                     dotnet.enable = true;
                     python.enable = true;
+                    nix.enable = true;
                   };
                 }
               ];
