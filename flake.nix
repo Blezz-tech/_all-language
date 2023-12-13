@@ -30,8 +30,14 @@
               modules = [
                 {
                   # https://devenv.sh/reference/options/
+
+                  packages = with pkgs; [
+                    clang
+                  ];
+
                   languages = {
                     javascript.enable = true;
+                    typescript.enable = true;
                     rust.enable = true;
                     php.enable = true;
                     haskell.enable = true;
@@ -39,6 +45,9 @@
                     dotnet.enable = true;
                     python.enable = true;
                     nix.enable = true;
+                    scala.enable = true;
+                    java.enable = true;
+                    shell.enable = true;
                   };
                 }
               ];
