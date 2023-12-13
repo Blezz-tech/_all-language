@@ -37,6 +37,7 @@
                     haskell.enable = true;
                     c.enable = true;
                     dotnet.enable = true;
+                    python.enable = true;
                   };
                 }
               ];
